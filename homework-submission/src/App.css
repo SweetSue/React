@@ -1,5 +1,6 @@
 body {
   background-color: lightskyblue;
+  margin: 0 auto;
   padding: 20px;
   max-width: 40rem;
   font-family: Helvetica, Arial;
@@ -30,4 +31,11 @@ ol li {
   font-size: 1.1em;
   font-weight: bold;
   text-transform: uppercase;
+}
+.done {
+  list-style-type: none;
+  background-color: hsl(197, 21%, 73%);
+  opacity: 0.5;
+  color: hsl(197, 11%, 11%);
+  padding: 8px;
 }
