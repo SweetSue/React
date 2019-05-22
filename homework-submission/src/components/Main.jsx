@@ -32,7 +32,7 @@ class Main extends Component {
                 <br />
                 Deadline: {postDetail.deadline}
                 <br />
-                Status: {postDetail.done}
+                Status: {JSON.stringify(postDetail.done)}
               </li>
             );
           })}
