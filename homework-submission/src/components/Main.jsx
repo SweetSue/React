@@ -27,7 +27,7 @@ class Main extends Component {
         <ol>
           {PostData.map((postDetail, index) => {
             return (
-              <li key={postDetail.id}>
+              <li key={postDetail.id} className={postDetail.done === true ? 'done' : ''}>
                 <span class="big">{postDetail.description}</span>
                 <br />
                 Deadline: {postDetail.deadline}
